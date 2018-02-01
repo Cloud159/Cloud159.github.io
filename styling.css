@@ -85,9 +85,10 @@ table img{
 }
 #gegevens img{
     float: left;
+    margin-top: 1.5%;
     margin-left: 20%;
-    width: 30%;
-    height: 30%;
+    width: 35%;
+    height: 35%;
 }
 .adresgegevens{
     text-align: center;
