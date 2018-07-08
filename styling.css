@@ -1,17 +1,27 @@
+*{
+    max-width: 100%;
+    max-height: 100%;
+}
+
 body{
     margin:0;
-    background: url(cartoon-style-clouds-860.png);
+    background: url(Backgrounds-donwload-desktop-kids-wallpapers.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 h1{
     text-align: center;
     padding: 1% 0% 1% 0%;
 }
+/*----------------------- navigatie balk ---------------------*/
 #nav{
-    background-color: #CCCCCC;
+    background-color: rgb(189, 93, 76);
     border-radius: 1em;
-    margin: 0% 20% 0% 20%;
-    padding: 1% 0% 1% 0;
+    margin: 0% 25% 0% 25%;
+    padding: 0% 0% 0% 0;
 }
 #nav ul{
     list-style-type: none;
@@ -34,10 +44,10 @@ h1{
     font-size: 1.3em;
 }
 #block1{
-    background-color: #CCCCCC;
+    background-color: lightgreen;
     border-radius: 1em;
     padding: 1% 2% 5% 2%;
-    margin: 2% 20% 2% 20%;
+    margin: 2% 25% 2% 25%;
 }
 
 #ondersteimage{
@@ -46,9 +56,8 @@ h1{
     max-height: 100%;
     max-width: 100%
 }
-#block1 h2{
-    text-align: center;
-}
+
+/*----------------------- block 1 gedeelte -----------------------------------*/
 
 #block1 p{
     position: relative;
@@ -62,35 +71,44 @@ h1{
 }
 /*------------------- middenste blok met Fotos op de foto pagina--------------*/
 #block2{
-    background-color: #CCCCCC;
+    background-color: lightgreen;
     border-radius: 1em;
-    padding: 1% 2% 5% 2%;
-    margin: 2% 20% 2% 20%; 
+    padding: 1% 2% 1% 2%;
+    margin: 2% 25% 2% 25%; 
 }
+
+#block1 h2{
+    text-align: center;
+}
+
+
 #block2 table td{ 
     text-align: center;
 }
 table img{
-    height:75%;
-    width: 75%;
+    height:100%;
+    width: 100%;
 }
 
 /* ------------------- onderste balk met adres gegevens----------------*/
 #gegevens{
-    background-color: #F3EFE0;
-    height: 50%;
+    background-color: lightgreen;
+    height: 40%;
     padding: 1% 0% 1% 0%;
-    margin: 0% 20% 0% 20%;
+    margin: 0% 25% 0% 25%;
     border-radius: 1em 1em 0em 0em;
 }
 #gegevens img{
     float: left;
     margin-top: 1.5%;
-    margin-left: 20%;
-    width: 35%;
-    height: 35%;
+    margin-left: 10%;
+    width: 40%;
+    height: 40%;
 }
 .adresgegevens{
-    text-align: center;
+    text-align: right;
     margin-right: 5%;
+}
+div.gallery:hover{
+    border: 1px solid #777;
 }

@@ -2,7 +2,6 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name ="name author" content="Sauviller Yorick">
         <meta name="description" content="onthaal moeder, oppass, kinderzorg">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,29 +9,8 @@
         <title>Onthaal-moeder</title>
     </head>
     <body>
-        <script>
-            // Get the modal
-var modal = document.getElementById('myModal');
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}
-        </script>
-            <h1><img src="ldaycare.png"></h1>
+            <h1><img src="onthaalouder_titel.png"></h1>
         <div id="nav">
         <ul>
             <li><b><a href="index.html">Welkom</a></b></li>
@@ -43,29 +21,39 @@ span.onclick = function() {
         </div>
         <div id= "block2">
             <table align="center" >
-                <tr>
-                    <td><img src="image1.jpg"></td>
-                    <td><img src="image2.jpg"></td>
-                </tr>
-                <tr>
-                    <td><img src="image3.jpg"></td>
-                    <td><img src="image4.jpg"></td>
-                </tr>
-                <tr>
-                    <td><img src="image5.jpg"></td>
-                    <td><img src="image6.jpg"></td>    
-                </tr>
+                <div class="gallery">
+                    <tr>
+                        <td><a target="_blank" href="img1.jpg">
+                            <img src="img1.jpg"></td></a>
+                            <div class="desc"></div>
+                        <td><a target="_blank" href="img1.jpg">
+                            <img src="img2.jpg"></td></a>
+                            <div class="desc"></div>
+                    </tr>
+                    <tr>
+                        <td><a target="_blank" href="img3.jpg">
+                            <img src="img3.jpg"></td></a>
+                        <td><a target="_blank" href="img4.jpg">
+                            <img src="img4.jpg"></td></a>
+                    </tr>
+                    <tr>
+                        <td><a target="_blank" href="img5.jpg">
+                            <img src="img5.jpg"></td></a>
+                        <td><a target="_blank" href="img5.jpg">
+                            <img src="img6.jpg"></td></a>    
+                    </tr>
+                </div>
             </table>
         </div>
         <div id="gegevens">
-            <img src="image5.jpg">
+            <img src="img7.jpg">
             <address class="adresgegevens">
                 <b>Anouchka-onthaalmoeder</b>
-                <p>naam</p>
-                <p>tel</p>
-                <p>straat + huisnummer</p>
-                <p>Gemeente + postcode</p>
-                <p>email</p>
+                <p>Mommynouchy</p>
+                <p>0475/24.26.35</p>
+                <p>Grootesteenweg 25</p>
+                <p>Nietecht  3025</p>
+                <p>ditisgeen.echteemail@hotmail.com</p>
             </address>
         </div>
     </body>
